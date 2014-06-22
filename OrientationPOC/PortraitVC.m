@@ -39,6 +39,15 @@
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait|UIInterfaceOrientationMaskPortraitUpsideDown;
+}
+
+//-(BOOL)shouldAutorotate
+//{
+//    return NO;
+//}
 /*
 #pragma mark - Navigation
 
