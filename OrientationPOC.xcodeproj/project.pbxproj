@@ -21,6 +21,8 @@
 		B8C4227219557C2100E5BCE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C4225419557C2000E5BCE2 /* UIKit.framework */; };
 		B8C4227A19557C2100E5BCE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8C4227819557C2100E5BCE2 /* InfoPlist.strings */; };
 		B8C4227C19557C2100E5BCE2 /* OrientationPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C4227B19557C2100E5BCE2 /* OrientationPOCTests.m */; };
+		B8C422871955837100E5BCE2 /* PortraitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C422861955837100E5BCE2 /* PortraitVC.m */; };
+		B8C4228A1955838500E5BCE2 /* PortraitLandscapeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C422891955838500E5BCE2 /* PortraitLandscapeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		B8C4227719557C2100E5BCE2 /* OrientationPOCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrientationPOCTests-Info.plist"; sourceTree = "<group>"; };
 		B8C4227919557C2100E5BCE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8C4227B19557C2100E5BCE2 /* OrientationPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationPOCTests.m; sourceTree = "<group>"; };
+		B8C422851955837100E5BCE2 /* PortraitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitVC.h; sourceTree = "<group>"; };
+		B8C422861955837100E5BCE2 /* PortraitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitVC.m; sourceTree = "<group>"; };
+		B8C422881955838500E5BCE2 /* PortraitLandscapeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitLandscapeVC.h; sourceTree = "<group>"; };
+		B8C422891955838500E5BCE2 /* PortraitLandscapeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitLandscapeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				B8C4226619557C2000E5BCE2 /* ViewController.m */,
 				B8C4226819557C2000E5BCE2 /* Images.xcassets */,
 				B8C4225719557C2000E5BCE2 /* Supporting Files */,
+				B8C422851955837100E5BCE2 /* PortraitVC.h */,
+				B8C422861955837100E5BCE2 /* PortraitVC.m */,
+				B8C422881955838500E5BCE2 /* PortraitLandscapeVC.h */,
+				B8C422891955838500E5BCE2 /* PortraitLandscapeVC.m */,
 			);
 			path = OrientationPOC;
 			sourceTree = "<group>";
@@ -249,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C4228A1955838500E5BCE2 /* PortraitLandscapeVC.m in Sources */,
 				B8C4226719557C2000E5BCE2 /* ViewController.m in Sources */,
+				B8C422871955837100E5BCE2 /* PortraitVC.m in Sources */,
 				B8C4226119557C2000E5BCE2 /* AppDelegate.m in Sources */,
 				B8C4225D19557C2000E5BCE2 /* main.m in Sources */,
 			);
@@ -379,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrientationPOC/OrientationPOC-Prefix.pch";
 				INFOPLIST_FILE = "OrientationPOC/OrientationPOC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OrientationPOC/OrientationPOC-Prefix.pch";
 				INFOPLIST_FILE = "OrientationPOC/OrientationPOC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
