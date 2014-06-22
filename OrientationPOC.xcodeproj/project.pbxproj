@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8A0124E1956DD4F00259792 /* UINavigationController+rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A0124D1956DD4F00259792 /* UINavigationController+rotate.m */; };
 		B8C4225119557C2000E5BCE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C4225019557C2000E5BCE2 /* Foundation.framework */; };
 		B8C4225319557C2000E5BCE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C4225219557C2000E5BCE2 /* CoreGraphics.framework */; };
 		B8C4225519557C2000E5BCE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C4225419557C2000E5BCE2 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8A0124C1956DD4F00259792 /* UINavigationController+rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+rotate.h"; sourceTree = "<group>"; };
+		B8A0124D1956DD4F00259792 /* UINavigationController+rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+rotate.m"; sourceTree = "<group>"; };
 		B8C4224D19557C2000E5BCE2 /* OrientationPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrientationPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C4225019557C2000E5BCE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8C4225219557C2000E5BCE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 				B8C4226219557C2000E5BCE2 /* Main.storyboard */,
 				B8C4226519557C2000E5BCE2 /* ViewController.h */,
 				B8C4226619557C2000E5BCE2 /* ViewController.m */,
+				B8A0124C1956DD4F00259792 /* UINavigationController+rotate.h */,
+				B8A0124D1956DD4F00259792 /* UINavigationController+rotate.m */,
 				B8C4226819557C2000E5BCE2 /* Images.xcassets */,
 				B8C4225719557C2000E5BCE2 /* Supporting Files */,
 				B8C422851955837100E5BCE2 /* PortraitVC.h */,
@@ -261,6 +266,7 @@
 			files = (
 				B8C4228A1955838500E5BCE2 /* PortraitLandscapeVC.m in Sources */,
 				B8C4226719557C2000E5BCE2 /* ViewController.m in Sources */,
+				B8A0124E1956DD4F00259792 /* UINavigationController+rotate.m in Sources */,
 				B8C422871955837100E5BCE2 /* PortraitVC.m in Sources */,
 				B8C4226119557C2000E5BCE2 /* AppDelegate.m in Sources */,
 				B8C4225D19557C2000E5BCE2 /* main.m in Sources */,
@@ -470,6 +476,7 @@
 				B8C4228119557C2100E5BCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8C4228219557C2100E5BCE2 /* Build configuration list for PBXNativeTarget "OrientationPOCTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				B8C4228419557C2100E5BCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
